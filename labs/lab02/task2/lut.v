@@ -21,6 +21,7 @@ module lut #(
 
   always @(*) begin
     dout = mem[sel];
+    
   end
 
 endmodule
