@@ -18,7 +18,6 @@ module tb;
     if ($value$plusargs("vcd=%s", vcd_file)) begin
       $dumpfile(vcd_file);
       $dumpvars(0, DUT);
-      
     end
   end
 
