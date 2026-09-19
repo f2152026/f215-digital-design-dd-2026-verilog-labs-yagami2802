@@ -12,6 +12,7 @@ module lut #(
 
   reg [WIDTH-1:0] mem [0:DEPTH-1];
 
+
   integer i;
 
 
