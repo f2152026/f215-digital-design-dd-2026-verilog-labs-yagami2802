@@ -16,6 +16,7 @@ module lut #(
   integer i;
 
 
+
   initial begin
     for (i = 0; i < DEPTH; i = i + 1)
       mem[i] = i * i;
